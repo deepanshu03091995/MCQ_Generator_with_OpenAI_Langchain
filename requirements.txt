@@ -3,3 +3,4 @@ openai
 streamlit
 python-dotenv
 pypdf2
+-e .
