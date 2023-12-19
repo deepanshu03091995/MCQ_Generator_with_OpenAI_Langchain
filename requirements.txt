@@ -3,4 +3,6 @@ openai
 streamlit
 python-dotenv
 pypdf2
+ipykernel
+notebook
 -e .
