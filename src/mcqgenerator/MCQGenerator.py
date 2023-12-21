@@ -8,7 +8,7 @@ from langchain.chains import LLMChain
 from langchain.chains import SequentialChain
 load_dotenv()
 
-KEY=os.environ["OPENAI_API_KEY"]
+key=os.environ["OPENAI_API_KEY"]
 
 llm = ChatOpenAI(openai_api_key=key,model_name="gpt-3.5-turbo", temperature=0.3)
 
